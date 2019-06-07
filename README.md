@@ -6,7 +6,7 @@ It is an online store application for Phone which had the following functionalit
  - a shopping cart - which displays all selected phones in shapping cart where we can place the order
 
  ## Demo Link
- Demo of the app is available on [StackBlitz] (https://online-phone-store-app-angular.stackblitz.io)
+ Demo of the app is available on [ StackBlitz ] (https://online-phone-store-app-angular.stackblitz.io)
 
  ## References
-This Application is built based on the [Angular-Getting started] (https://angular.io/start) tutorial 
+This Application is built based on the [ Angular-Getting started ] (https://angular.io/start) tutorial 

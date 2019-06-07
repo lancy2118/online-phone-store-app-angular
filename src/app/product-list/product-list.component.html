@@ -1,0 +1,26 @@
+<!--Displays all products-->
+
+<h2>Products</h2>
+<!--Products available-->
+<div *ngFor="let product of products; index as productId">
+<h3>
+  <a [title]="product.name + ' details'" [routerLink]="['/product',productId]">
+  {{product.name}}
+  </a>
+  </h3>
+
+<!-- Products description if mentioned is displayed-->
+<p *ngIf="product.description">
+  Description:{{product.description}}
+</p>
+<button (click)="share()">
+  Share</button>
+  <app-product-alert [product]="product" 
+  (notify)="onNotify()"></app-product-alert>
+</div>
+
+<!-- 
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at http://angular.io/license
+-->
